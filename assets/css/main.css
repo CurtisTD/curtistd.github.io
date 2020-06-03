@@ -2035,6 +2035,27 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+/* Assessment Icons */
+
+	ul.assess-icons {
+		cursor: default;
+		list-style: none;
+		padding-left: 0;
+	}
+
+		ul.assess-icons li {
+			display: inline-block;
+			padding: 2em 3em 0 0;
+		}
+
+			ul.assess-icons li:last-child {
+				padding-right: 0;
+			}
+
+			ul.assess-icons li .icon:before {
+				font-size: 5.5em;
+			}
+
 /* Image */
 
 	.image {
