@@ -2465,10 +2465,10 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		background-color: rgba(256,256,256,0.1);
+		background-color: rgb(197, 197, 197);
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
-		color: #FFF7F7 !important;
+		border: solid 3px #d3d3d3;
+		color: #000000 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
