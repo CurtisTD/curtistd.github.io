@@ -2671,7 +2671,7 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 4em 4em;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -2686,13 +2686,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		#header > .inner {
-			-moz-flex-grow: 1;
-			-webkit-flex-grow: 1;
-			-ms-flex-grow: 1;
-			flex-grow: 1;
-			margin: -3.5em 0 -1.5em 0;
-		}
+		
 
 		#header strong, #header b {
 			color: #ffffff;
@@ -3080,9 +3074,13 @@ input, select, textarea {
 						display: none;
 					}
 
-				#header > .inner {
-					margin-bottom: 0;
-				}
+					#header > .inner {
+						-moz-flex-grow: 1;
+						-webkit-flex-grow: 1;
+						-ms-flex-grow: 1;
+						flex-grow: 1;
+						margin: -3.5em 0 -1.5em 0;
+					}
 
 		/* Footer */
 
@@ -3142,6 +3140,14 @@ input, select, textarea {
 
 					#header h1 br {
 						display: inline;
+					}
+
+					#header > .inner {
+						-moz-flex-grow: 1;
+						-webkit-flex-grow: 1;
+						-ms-flex-grow: 1;
+						flex-grow: 1;
+						margin: -3.5em 0 -1.5em 0;
 					}
 
 		/* Footer */
@@ -3233,6 +3239,14 @@ input, select, textarea {
 
 				#header h1 {
 					font-size: 1.35em;
+				}
+
+				#header > .inner {
+					-moz-flex-grow: 1;
+					-webkit-flex-grow: 1;
+					-ms-flex-grow: 1;
+					flex-grow: 1;
+					margin: 0 0 0 0;
 				}
 
 		/* Footer */
