@@ -102,7 +102,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #727171;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -120,7 +120,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9ed5 !important;
+			color: #49bf9d !important;
 			text-decoration: none;
 		}
 
@@ -2676,6 +2676,7 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 35%;
+		z-index: 4000;
 	}
 
 		#header > * {
@@ -2754,7 +2755,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #d6d6d6;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
@@ -3307,4 +3308,66 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+	}
+
+
+	/* NavBar */
+	/* Add a black background color to the top navigation */
+	.topnav {
+		background-color: #333;
+		overflow: hidden;
+		position: fixed;
+		top: 0;
+		z-index: 3;
+		width: 100%;
+	}
+
+	/* Style the links inside the navigation bar */
+	.topnav a {
+		float: right;
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+
+	/* Change the color of links on hover */
+	.topnav a:hover {
+		background-color: #4ec9a6;
+		color: white !important;
+	}
+
+	/* Add an active class to highlight the current page */
+	.topnav a.active {
+		background-color: #0aac7e;
+		color: white;
+	}
+
+	/* Hide the link that should open and close the topnav on small screens */
+	.topnav .icon {
+		display: none;
+	} 
+
+	@media screen and (max-width: 1080px) {
+		.topnav { z-index: 5000; }
+		#header { margin-top: 3em; }
+		.inner { padding-top: 5em; }
+	}
+
+	.selfieImg {
+		float: left;
+		width: 45%;
+		height: auto;
+		margin: 10px 10px 10px 0px;
+		border-radius: 15px;
+	}
+
+	.selfieImgRight {
+		float: right;
+		width: 45%;
+		height: auto;
+		margin: 10px 0px 10px 10px;
+		border-radius: 15px;
 	}
